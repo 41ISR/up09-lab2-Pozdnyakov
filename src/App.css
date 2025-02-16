@@ -1,0 +1,9 @@
+#root {
+  display:flex;
+  flex-direction: column;
+  align-content: space-between;
+  width:100%;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+}

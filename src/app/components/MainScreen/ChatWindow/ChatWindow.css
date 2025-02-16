@@ -1,0 +1,49 @@
+.chat_part {
+    width: 80%;
+    height: 100vh;
+    background-image: url("../../../../assets/chat-background.jpg");
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.user_info {
+    display: flex;
+    width: 50%;
+    height: 50px;
+    justify-content: space-between;
+}
+
+.user_info_block {
+    background-color: var(--theme-color-dark);
+}
+
+.user_info button {
+    background: none;
+    font-size: 30px;
+    padding: 0 30px;
+}
+
+@media (max-width: 1024px) {
+    .chat_part {
+        width: 70%;
+    }
+}
+
+@media (max-width: 768px) {
+    .chat_part {
+        width: 60%;
+    }
+}
+
+@media(max-width: 550px) {
+    .chat_part {
+        display: flex;
+        width: 100%;
+    }
+
+    .chat_part-active {
+        display: none;
+    }
+}

@@ -1,0 +1,32 @@
+.input_area {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.input_field {
+    width: 60%;
+    font-size: 16px;
+    height:30px;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--theme-color-dark);
+}
+
+.send_button {
+    background-color: var(--theme-color-cyan1);
+}
+
+.send_button:disabled {
+    background-color: var(--theme-color-dark);
+}
+
+.send_button:hover {
+    background-color: var(--theme-color-cyan1);
+}
+@media (max-width: 1024px) {
+    .input_field {
+        width: 100%;
+    }
+}

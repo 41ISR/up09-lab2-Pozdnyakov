@@ -1,0 +1,17 @@
+.search_field {
+    width: 70%;
+    color: #E0F2F0;
+    background: none;
+    border:none;
+    border-bottom:2px #E0F2F0 solid;
+    font-size: 30px;
+    font-weight: 900;
+    padding: 10px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.search_field::placeholder {
+    color: #E0F2F0;
+}

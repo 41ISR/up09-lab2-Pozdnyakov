@@ -1,0 +1,15 @@
+.auth_form {
+    display:flex;
+    width:100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.auth_form form{
+    height:100vh;
+    background-color: var(--theme-color-cyan1);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

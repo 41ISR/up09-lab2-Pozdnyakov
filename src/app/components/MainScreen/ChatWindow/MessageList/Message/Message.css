@@ -1,0 +1,40 @@
+.message {
+    display: flex;
+    max-width: 70%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 20px;
+    margin: 10px;
+    margin-top:0;
+    color: #E0F2F0;
+    flex-direction: column;
+    text-align: left;
+}
+.message-kent {
+    background-color: #17232b;
+    border-bottom-left-radius: 0;
+    align-self: flex-start;
+}
+
+.message-me .message-timestamp {
+    text-align: right;
+}
+
+.message-me {
+    background-color: var(--theme-color-cyan1);
+    border-bottom-right-radius: 0;
+    align-self: flex-end;
+}
+
+.message-block {
+    width: 100%;
+    display: flex;
+}
+
+.my-message {
+    justify-content: flex-end;
+}
+
+.message-timestamp {
+    opacity: 50%;
+}

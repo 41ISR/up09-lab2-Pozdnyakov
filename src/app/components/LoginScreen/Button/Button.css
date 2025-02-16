@@ -1,0 +1,14 @@
+.search_button {
+    background-color: #E0F2F0;
+    border: none;
+    border-bottom: 5px solid #17232b;
+    font-size: 30px;
+    font-weight: 900;
+    padding: 10px;
+    color: var(--theme-color-cyan1);
+    cursor: pointer;
+}
+
+.search_button:hover {
+    opacity: 50%;
+}
