@@ -20,6 +20,7 @@ const MessengerAPI = {
     },
     getMessages: async (id: string) => {
         const res = await MessengerAPIInstance.get<IMessage[]>(`/messages/${id}`)
+        //console.log(res.data);
         return res.data;
     }
 }

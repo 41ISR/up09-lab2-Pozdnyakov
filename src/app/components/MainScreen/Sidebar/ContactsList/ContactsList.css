@@ -1,3 +1,21 @@
 .contacts {
     flex-grow: 1;
+    overflow-y:auto;   
+}
+.contacts::-webkit-scrollbar {
+    width: 8px;
+}
+
+.contacts::-webkit-scrollbar-thumb {
+    background-color: var(--theme-color-cyan1);
+    border-radius: 4px;
+}
+
+.contacts::-webkit-scrollbar-thumb:hover {
+    background-color: var(--theme-color-cyan2);
+}
+
+.contacts::-webkit-scrollbar-track {
+    background-color: var(--theme-color-darky);
+    border-radius: 4px;
 }

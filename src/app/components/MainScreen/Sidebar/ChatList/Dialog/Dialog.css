@@ -8,6 +8,7 @@
     align-items:start;
     background-color: var(--theme-color-cyan2);
     overflow: hidden;
+    color:var(--theme-color-light);
 }
 .dialog-active {
     background-color: var(--theme-color-cyan1);

@@ -8,6 +8,7 @@
     flex-grow: 1;
     padding:0 20px;
     margin-top:10px;
+    justify-content: flex-end;
 }
 .messages::-webkit-scrollbar {
     width: 8px;
@@ -23,7 +24,7 @@
 }
 
 .messages::-webkit-scrollbar-track {
-    background-color: var(--theme-color-dark);
+    background-color: var(--theme-color-darky);
     border-radius: 4px;
 }
 .fucking-div {

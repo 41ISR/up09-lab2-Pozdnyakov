@@ -1,3 +1,21 @@
 .dialogs {
     flex-grow: 1;
+    overflow-y:auto;
+}
+.dialogs::-webkit-scrollbar {
+    width: 8px;
+}
+
+.dialogs::-webkit-scrollbar-thumb {
+    background-color: var(--theme-color-cyan1);
+    border-radius: 4px;
+}
+
+.dialogs::-webkit-scrollbar-thumb:hover {
+    background-color: var(--theme-color-cyan2);
+}
+
+.dialogs::-webkit-scrollbar-track {
+    background-color: var(--theme-color-darky);
+    border-radius: 4px;
 }

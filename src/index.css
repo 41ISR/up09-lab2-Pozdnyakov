@@ -8,12 +8,12 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   
-  --theme-color-dark: #17232B;
+  --theme-color-darky: #17232B;
   --theme-color-cyan1: #2A7A78;
   --theme-color-cyan2: #1a4548;
   --theme-color-light: #E0F2F0;
   color: var(--theme-color-light);
-  background-color: var(--theme-color-dark);
+  background-color: var(--theme-color-darky);
 }
 
 a {

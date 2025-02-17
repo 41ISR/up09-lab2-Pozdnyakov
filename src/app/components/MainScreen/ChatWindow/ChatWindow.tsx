@@ -12,7 +12,7 @@ export default function ChatWindow() {
         return <p>Ошибка: Контекст не найден</p>;
     }
 
-    const { currentKent, setCurrentKent, activeSidebar, setActiveSidebar } = chatContext;
+    const { currentKent, setCurrentKent, activeSidebar, setActiveSidebar, update, setUpdate } = chatContext;
     const { id } = useUserData();
     const [messages, setMessages] = useState<IMessage[]>([]);
 
@@ -33,6 +33,7 @@ export default function ChatWindow() {
         if (currentKent) {
             getMessages(currentKent);
         }
+
         const handleMessage = (msg: IMessage) => {
             setMessages((prev) => [...prev, msg]);
         };
@@ -43,6 +44,10 @@ export default function ChatWindow() {
             socket.off("private_message", handleMessage);
         };
     }, [currentKent, id]);
+
+    useEffect(() => {
+        socket.on("private_message", () => setUpdate(!update));
+    }, [update, setUpdate])
 
     return (
         <div className={`chat_part ${activeSidebar && "chat_part-active"}`}>

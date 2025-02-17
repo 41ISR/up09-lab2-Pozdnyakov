@@ -2,16 +2,18 @@
     display: flex;
     justify-content: center;
     width: 100%;
+    
 }
 
 .input_field {
+    color: var(--theme-color-light);
     width: 60%;
     font-size: 16px;
     height:30px;
     padding: 20px;
     border-radius: 5px;
     border: none;
-    background-color: var(--theme-color-dark);
+    background-color: var(--theme-color-darky);
 }
 
 .send_button {
@@ -19,7 +21,7 @@
 }
 
 .send_button:disabled {
-    background-color: var(--theme-color-dark);
+    background-color: var(--theme-color-darky);
 }
 
 .send_button:hover {
